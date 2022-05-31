@@ -1,0 +1,52 @@
+$font-blue-color:#56C4C5;
+$font-h2:normal normal bold 32px/46px Noto Sans TC;
+$font-h3:normal normal bold 24px/35px Noto Sans TC;
+$font-xl:normal normal normal 32px/35px Comfortaa;
+$font-l:normal normal normal 20px/29px Noto Sans TC;
+$font-m:normal normal normal 18px/26px Noto Sans TC;
+$font-s:normal normal normal 16px/24px Noto Sans TC;
+$font-xs:normal normal normal 12px/17px Noto Sans TC;
+
+
+
+.blue{
+    text-align: left;
+    font: $font-m;
+    font-weight:bold;
+    color: #56C4C5;
+}
+
+.bannerword{
+    font:normal normal bold 48px/70px Noto Sans TC;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.word-xl{
+    font:$font-xl;
+}
+
+.word-l{
+    font:$font-l;
+}
+
+.word-m{
+    font:$font-m;
+}
+
+.word-s{
+    font:$font-s;
+    color: #221E1F;
+}
+
+.word-xs{
+    font:$font-xs;
+}
+
+.word-h2{
+    font:$font-h2;
+}
+
+.word-h3{
+    font:$font-h3;
+}
