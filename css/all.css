@@ -309,7 +309,7 @@ a:hover {
             justify-content: space-between;
   }
   .container .roles .roles-row {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 12px;
@@ -347,7 +347,7 @@ a:hover {
   }
   .container .features .functions .funtions-all .functions-row {
     width: 230px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 12px;
@@ -356,7 +356,7 @@ a:hover {
   .container .features .functions .funtions-all .functions-row .functions-img {
     width: 86px;
     height: 86px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 50%;
@@ -417,7 +417,7 @@ a:hover {
   }
   .container .evaluation .evaluation-all .evaluation-raw .evaluation-raw1 {
     width: 352px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 12px;
@@ -457,25 +457,25 @@ a:hover {
   .container .evaluation .page-dot .dot1 {
     width: 10px;
     height: 10px;
-    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background: #dddddd 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .page-dot .dot2 {
     width: 10px;
     height: 10px;
-    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background: #dddddd 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .page-dot .dot3 {
     width: 10px;
     height: 10px;
-    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background: #dddddd 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .page-dot .dot-color {
     width: 16px;
     height: 10px;
-    background: #FFD153 0% 0% no-repeat padding-box;
+    background: #ffd153 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .bgimg3-index {
@@ -508,7 +508,7 @@ a:hover {
     margin-top: 46px;
   }
   .footer .footer-cr {
-    background: #F5F5F5 0% 0% no-repeat padding-box;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
   }
   .footer .footer-cr .word-s {
     padding-top: 16px;
@@ -525,12 +525,13 @@ a:hover {
     display: none;
   }
   .wrap .topimg {
+    z-index: 2;
     position: fixed;
     top: 400px;
     right: 15px;
   }
   .header {
-    border-bottom: 2px solid #FFD153;
+    border-bottom: 2px solid #ffd153;
   }
   .header .item {
     padding: 20px;
@@ -627,7 +628,7 @@ a:hover {
     padding-right: 20px;
   }
   .container .roles .roles-row {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 12px;
@@ -662,7 +663,7 @@ a:hover {
   }
   .container .features .functions .funtions-all .functions-row {
     width: 260px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 12px;
@@ -671,7 +672,7 @@ a:hover {
   .container .features .functions .funtions-all .functions-row .functions-img {
     width: 86px;
     height: 86px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 50%;
@@ -705,18 +706,18 @@ a:hover {
   }
   .container .evaluation {
     padding-bottom: 60px;
+    z-index: 1;
   }
   .container .evaluation h2 {
-    padding-bottom: 48px;
+    padding-bottom: 20px;
   }
   .container .evaluation .evaluation-all {
-    margin-top: 56px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     padding-bottom: 24px;
+    padding-top: 50px;
+    overflow: scroll;
   }
   .container .evaluation .evaluation-all .evaluation-raw {
     position: relative;
@@ -732,8 +733,8 @@ a:hover {
     left: 32px;
   }
   .container .evaluation .evaluation-all .evaluation-raw .evaluation-raw1 {
-    width: 100%;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 335px;
+    background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: #00000014 0px 2px 10px;
             box-shadow: #00000014 0px 2px 10px;
     border-radius: 12px;
@@ -764,9 +765,6 @@ a:hover {
   .container .evaluation .evaluation-all .evaluation-raw .star .star-row {
     width: 17px;
   }
-  .container .evaluation .evaluation-all .mer {
-    display: none;
-  }
   .container .evaluation .page-dot .dot-all {
     width: 70px;
     -webkit-box-pack: justify;
@@ -776,25 +774,25 @@ a:hover {
   .container .evaluation .page-dot .dot1 {
     width: 10px;
     height: 10px;
-    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background: #dddddd 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .page-dot .dot2 {
     width: 10px;
     height: 10px;
-    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background: #dddddd 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .page-dot .dot3 {
     width: 10px;
     height: 10px;
-    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background: #dddddd 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .page-dot .dot-color {
     width: 16px;
     height: 10px;
-    background: #FFD153 0% 0% no-repeat padding-box;
+    background: #ffd153 0% 0% no-repeat padding-box;
     border-radius: 50px;
   }
   .container .evaluation .bgimg3-index {
@@ -819,7 +817,7 @@ a:hover {
     font-weight: bold;
   }
   .footer .footer-cr {
-    background: #F5F5F5 0% 0% no-repeat padding-box;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
   }
   .footer .footer-cr .word-s {
     padding-top: 16px;
@@ -904,9 +902,6 @@ a:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .container .choose .users .users-tag {
-    padding: 12px 32px;
-  }
   .container .choose .users .users-tag2 {
     padding: 12px 32px;
   }
@@ -918,58 +913,62 @@ a:hover {
   .container .choose .price-d .price-dall .drow1 {
     margin-right: 20px;
   }
-  .container .choose .price-d .price-dall .peice-drow {
+  .container .choose .price-d .price-dall .price-drow {
     width: 444px;
     background: #ffffff 0% 0% no-repeat padding-box;
     -webkit-box-shadow: 0px 2px 10px #00000014;
             box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
+    padding-bottom: 40px;
   }
-  .container .choose .price-d .price-dall .peice-drow .word-h3 {
+  .container .choose .price-d .price-dall .price-drow .word-h3 {
     padding: 10px 20px 10px 20px;
     border-bottom: 1px solid #dddddd;
   }
-  .container .choose .price-d .price-dall .peice-drow .pd {
+  .container .choose .price-d .price-dall .price-drow .pd {
     padding: 32px 20px 32px 32px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon {
+  .container .choose .price-d .price-dall .price-drow .price-munmon {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-bottom: 32px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 {
     padding: 32px 25px;
     background: #f5f5f5;
     border-radius: 12px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 .word-xl {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 .word-xl {
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 .word-xs {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 .word-xs {
     padding-bottom: 6px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 .span {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 .span {
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 {
     padding: 32px 32px;
     background: #f5f5f5;
     border-radius: 12px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 .word-xl {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 .word-xl {
     color: #56c4c5;
     color: black;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 .word-xs {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 .word-xs {
     padding-bottom: 6px;
     color: black;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 .span {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 .span {
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-equal {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-equal {
     padding: 50px 24px;
+  }
+  .container .choose .price-d .price-dall .price-plan {
+    padding-bottom: 32px;
   }
   .container .choose .price-d .price-dall .price-plan .word-s {
     padding-bottom: 16px;
@@ -982,7 +981,7 @@ a:hover {
   }
   .container .choose .price-d .price-dall .users-tag {
     padding: 12px 32px;
-    margin: 32px 150px 32px 162px;
+    margin: 0px 150px 0px 162px;
   }
   .container .bgimg1-price {
     position: absolute;
@@ -1106,22 +1105,28 @@ a:hover {
     padding-bottom: 60px;
   }
   .container .choose h2 {
-    padding-bottom: 48px;
-    margin: 17px;
+    padding-bottom: 24px;
+    padding-left: 17px;
+    padding-right: 17px;
   }
   .container .choose .users {
     padding-bottom: 54px;
-    overflow: scroll;
   }
   .container .choose .users .users-all {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: scroll;
   }
   .container .choose .users .users-all .users-tag2 {
-    margin: 6px;
-    width: 94px !important;
-    padding: 8px 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 8px 8px;
+    height: 26px;
+  }
+  .container .choose .users .users-all .users-tag2 p {
+    width: 90px;
+    font: 16px;
   }
   .container .choose .price-d .price-dall {
     -ms-flex-wrap: wrap;
@@ -1131,7 +1136,7 @@ a:hover {
   .container .choose .price-d .price-dall .drow1 {
     margin-bottom: 24px;
   }
-  .container .choose .price-d .price-dall .peice-drow {
+  .container .choose .price-d .price-dall .price-drow {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1144,20 +1149,20 @@ a:hover {
     padding-bottom: 24px;
     margin-right: 20px;
   }
-  .container .choose .price-d .price-dall .peice-drow .word-h3 {
+  .container .choose .price-d .price-dall .price-drow .word-h3 {
     padding: 10px 20px 10px 20px;
     border-bottom: 1px solid #dddddd;
   }
-  .container .choose .price-d .price-dall .peice-drow .pd {
+  .container .choose .price-d .price-dall .price-drow .pd {
     padding: 32px 20px 32px 32px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon {
+  .container .choose .price-d .price-dall .price-drow .price-munmon {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-bottom: 27px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 {
     width: 100%;
     height: 90px;
     padding-top: 32px;
@@ -1165,17 +1170,17 @@ a:hover {
     background: #f5f5f5;
     border-radius: 12px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 .word-xl {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 .word-xl {
     font-size: 28px;
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 .word-xs {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 .word-xs {
     padding-bottom: 6px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-num1 .span {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-num1 .span {
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 {
     width: 100%;
     height: 90px;
     padding-top: 32px;
@@ -1183,17 +1188,17 @@ a:hover {
     background: #f5f5f5;
     border-radius: 12px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 .word-xl {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 .word-xl {
     font-size: 28px;
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 .word-xs {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 .word-xs {
     padding-bottom: 6px;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-mon1 .span {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-mon1 .span {
     color: #56c4c5;
   }
-  .container .choose .price-d .price-dall .peice-drow .price-munmon .price-equal {
+  .container .choose .price-d .price-dall .price-drow .price-munmon .price-equal {
     padding: 50px 24px;
   }
   .container .choose .price-d .price-dall .price-plan .word-s {
