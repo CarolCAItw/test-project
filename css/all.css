@@ -1146,7 +1146,7 @@ a:hover {
             box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
     margin-left: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 24px;
     margin-right: 20px;
   }
   .container .choose .price-d .price-dall .price-drow .word-h3 {
@@ -1200,9 +1200,6 @@ a:hover {
   }
   .container .choose .price-d .price-dall .price-drow .price-munmon .price-equal {
     padding: 50px 24px;
-  }
-  .container .choose .price-d .price-dall .price-plan {
-    padding-bottom: 26px;
   }
   .container .choose .price-d .price-dall .price-plan .word-s {
     font-size: 14px;
